@@ -1,3 +1,6 @@
+// minimum  2  bar kore likba
+
+
 document.getElementById('cashout-btn').addEventListener('click', function  (){
 
 // step -1 ==> get the  agent number $ validate
@@ -35,7 +38,7 @@ if(newBalance <  0){
 }
 
 console.log ('new Balance', newBalance) ;
-// get the pin and verify
+// get step -5 get the pin and verify
 
 const  cashoutPinInput=document.getElementById('cashoutut-pin')
  const pin  = cashoutPinInput.value
