@@ -7,7 +7,11 @@ document.getElementById('cashout-btn').addEventListener('click', function  (){
     const cashOutNumber =    document.getElementById('cashout-number');
     const  cashoutNumber = cashOutNumber.value;
     console.log(cashoutNumber);
-
+// validate
+if(cashoutNumber.length !=11){
+    alert('invalid Agent  Number')
+    return;
+}
 
 // get step -2 ==> the  amount input ,
 
@@ -15,11 +19,7 @@ const casOutAmount= document.getElementById('cashout-amount');
 const cashoutAmount =casOutAmount.value;
 console.log(cashoutAmount);
 
-// validate
-if(cashoutAmount.length !=11){
-    alert('invalid Agent  Number')
-    return;
-}
+
 
 
 // get step -3   get the  current Balance,
