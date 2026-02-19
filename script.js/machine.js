@@ -56,7 +56,7 @@ function showOnly(id){
     const  cashout=document.getElementById('cashout');
     const  transfermoney=document.getElementById('transfer');
     const  history=document.getElementById('history');
-
+    const bonus =document.getElementById('bonus')
 
     // console.log(`add money -${addmoney}, cahsout - ${cashout}`);
     // sobaik hide kore daw
@@ -64,6 +64,7 @@ function showOnly(id){
     cashout.classList.add('hidden');
     history.classList.add('hidden');
     transfermoney.classList.add('hidden');
+    bonus.classList.add('hidden')
 
     // id ola class gula show koro
     const selected =document.getElementById(id)
