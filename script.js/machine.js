@@ -25,6 +25,30 @@ function getBalance (){
     balanceElement.innerText = value ;
  }
 
+// //  machine  id > hide  all >  show id 
+// function showOnly(id){
+//     console.log('show  only click hoise')
+//     const  addmoney=document.getElementById('add-money');
+//     const  cashout=document.getElementById('cashout');
+//     const  transfermoney=document.getElementById('transfer');
+//     const  history=document.getElementById('history');
+//     const  history=document.getElementById('get-bonus');
+
+
+//     // console.log(`add money -${addmoney}, cahsout - ${cashout}`);
+//     // sobaik hide kore daw
+//     addmoney.classList.add('hidden');
+//     cashout.classList.add('hidden');
+//     history.classList.add('hidden');
+//     transfermoney.classList.add('hidden');
+    
+
+//     // id ola class gula show koro
+//     const selected =document.getElementById(id)
+//     selected.classList.remove('hidden')
+
+// }
+
 //  machine  id > hide  all >  show id 
 function showOnly(id){
     console.log('show  only click hoise')
