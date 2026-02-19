@@ -35,6 +35,23 @@ const pin =  getValueFormInput('cashoutut-pin')
 if(pin==='1234'){
     alert ('cashout successful');
     setBalance(newBalance);
+
+     // jekhane rakbo  history container k dhore nia asbo
+    const history = document.getElementById('history-container') ;
+
+    // 2  new div make korbo
+    const  newHistory = document.createElement('div')
+    // 3 new div inner html select korbo
+
+    newHistory.innerHTML =`
+    
+     <div class="transaction-card p-5 b-base-400">
+       Cash out ${cashoutAmount} Taka success to ${cashoutNumber} at ${new Date()}
+     </div>
+    
+    `;
+    // history container e newdiv append korbo
+    history.append(newHistory);
 }
 
 else{
